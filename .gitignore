@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment variables / secrets / API keys
+.env
+.env.*
+!.env.example
+
+# Local databases & Vector Store caches
+*.db
+*.sqlite
+*.sqlite3
+chroma/
+.chroma/
+
+# IDE configurations
+.vscode/
+.idea/

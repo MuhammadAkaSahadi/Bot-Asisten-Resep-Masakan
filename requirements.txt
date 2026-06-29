@@ -1,0 +1,9 @@
+chromadb
+numpy<2
+python-dotenv
+
+# Optional: needed only for embedding/reranking models (03 & 04).
+# Requires torch, which has no wheel for Python 3.14 yet.
+# Use Python 3.12/3.13 to install, then uncomment:
+# sentence-transformers<4
+# transformers<5
